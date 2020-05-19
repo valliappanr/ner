@@ -60,8 +60,4 @@ ner_model = train_model(configs.ner.ner_conll2003_bert)
 ner_model.save()
 ```
 
-
-
-## Entity Report
-
-Entity report is a spring boot app, which reads the data from the No-SQL database and present it to the user on the recognized entities.
+[Next](Entity-persister.md)
