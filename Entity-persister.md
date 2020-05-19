@@ -100,4 +100,4 @@ Code to consume the Kafka message and persist to the database.
 
 Entity report is a spring boot app, which reads the data from the No-SQL database and present it to the user on the recognized entities.
 
-[Sample Report](entity-report.png)
+![Sample Report](entity-report.png)
