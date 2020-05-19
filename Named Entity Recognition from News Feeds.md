@@ -21,7 +21,7 @@ There are many ways design the overall system. Using a single monolithic applica
 
 Individual microservice component is loosely coupled and all of them interact with each other using kafka topics.
 
-![](./news-feed.PNG)
+![](news-feed.PNG)
 
 
 
@@ -156,7 +156,7 @@ FeedConsumer uses SyndicateReader to download the feed file and stores it in the
 
 ******
 
-[Next](https://github.com/valliappanr/ner/blob/master/Feed-Processor.md)
+[Next](Feed-Processor.md)
 
 
 
