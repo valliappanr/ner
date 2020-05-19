@@ -2,7 +2,7 @@
 
 Feed processor consumes the feed document file link from the kafka topic.  Then extracts the link detail from the feed file, checks with redis cache whether the link had been previously processed, if not download the link and extract the sentences from the downloaded content. Some of the document can be huge and won't be able to process the entire document at once with neural networks for named entity recognition. 
 
-![](C:\Users\valli\OneDrive\Desktop\feed-processor.PNG)
+![](feed-processor.PNG)
 
 A sample feed item is below which contains the link about the details of the news feed.
 
